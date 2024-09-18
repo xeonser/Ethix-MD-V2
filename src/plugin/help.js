@@ -103,7 +103,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
               text: "© 𝖒𝖆𝖉𝖊 𝖇𝖞 𝖒𝖗 𝖋𝖗𝖆𝖓𝖐 𝖝 𝖉𝖆𝖗𝖗𝖊𝖑𝖑"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.png')}, { upload: Matrix.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/big-hero-6_612x380_1-58f6313c9ddd41bb92184318e725c69c.jpg')}, { upload: Matrix.waUploadToServer})), 
                   title: ``,
                   gifPlayback: true,
                   subtitle: "",
