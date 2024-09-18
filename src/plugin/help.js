@@ -88,21 +88,22 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
           },
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
-              text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ᴇᴛʜɪx-ᴍᴅ*
-│📍 ᴠᴇʀꜱɪᴏɴ: 2.1.0
-│👨‍💻 ᴏᴡɴᴇʀ : *ᴇᴛʜɪx xsɪᴅ*      
-│👤 ɴᴜᴍʙᴇʀ: 919142294671
-│📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
-│🛡 ᴍᴏᴅᴇ: *${mode}*
-│💫 ᴘʀᴇғɪx: [${pref}]
-╰─────────────━┈⊷ `
+              text: `
+━━━━━━━━━━━━━━━━━━━━━━              
+╸ 𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝚅3*
+╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 0.1
+╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
+╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝚄𝙼𝙱𝙴𝚁: 2637𝚀9647303
+╸ 𝙷𝙾𝚂𝚃: *${os.platform()}*
+╸ 𝙼𝙾𝙳𝙴 : *${mode}*
+╸  𝙿𝚁𝙵𝙸𝚇: [${pref}]
+━━━━━━━━━━━━━━━━━━━ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ"
+              text: "© MADE BY DARRELL MUCHERI"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
-                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.jpg')}, { upload: Matrix.waUploadToServer})), 
+                ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.png')}, { upload: Matrix.waUploadToServer})), 
                   title: ``,
                   gifPlayback: true,
                   subtitle: "",
