@@ -96,7 +96,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
 ╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝚄𝙼𝙱𝙴𝚁: 2637𝚀9647303
 ╸ 𝙷𝙾𝚂𝚃: *${os.platform()}*
 ╸ 𝙼𝙾𝙳𝙴 : *${mode}*
-╸  𝙿𝚁𝙵𝙸𝚇: [${pref}]
+╸  𝙿𝚁𝙵𝙸𝚇: ${pref}
 ━━━━━━━━━━━━━━━━━━━ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
