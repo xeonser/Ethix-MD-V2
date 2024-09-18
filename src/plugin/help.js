@@ -89,18 +89,18 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `
-━━━━━━━━━━━━━━━━━━━━━━              
+━━━━━━━━━━━━━━━━━━━              
 ╸ 𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾 𝚅3*
-╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 0.1
+╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0
 ╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
-╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝚄𝙼𝙱𝙴𝚁: 2637𝚀9647303
+╸ 𝙾𝚆𝙽𝙴𝚁: 263719647303
 ╸ 𝙷𝙾𝚂𝚃: *${os.platform()}*
 ╸ 𝙼𝙾𝙳𝙴 : *${mode}*
 ╸  𝙿𝚁𝙵𝙸𝚇: ${pref}
 ━━━━━━━━━━━━━━━━━━━ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© MADE BY DARRELL MUCHERI"
+              text: "© 𝖒𝖆𝖉𝖊 𝖇𝖞 𝖒𝖗 𝖋𝖗𝖆𝖓𝖐 𝖝 𝖉𝖆𝖗𝖗𝖊𝖑𝖑"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/ethix.png')}, { upload: Matrix.waUploadToServer})), 
@@ -127,7 +127,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
         },
                 {
                   "name": "single_select",
-                  "buttonParamsJson": `{"title":"🔖𝚻𝚫𝚸 𝐅𝚯𝚪 𝚯𝚸𝚵𝚴 𝚳𝚵𝚴𝐔",
+                  "buttonParamsJson": `{"title":"🔖𝖳𝖠𝖯 𝖥𝖮𝖱 𝖬𝖤𝖭𝖴𝖫𝖨𝖲𝖳 ߷",
                  "sections":
                    [{
                     "title":"😎 𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
