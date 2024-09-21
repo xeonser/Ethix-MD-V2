@@ -89,6 +89,8 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `
+
+              HI  ${m.pushName}
 ━━━━━━━━━━━━━━━━━━━              
 ╸ 𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾-𝚅3*
 ╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0.0
@@ -130,66 +132,66 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
                   "buttonParamsJson": `{"title":"🔖𝖳𝖠𝖯 𝖥𝖮𝖱 𝖬𝖤𝖭𝖴𝖫𝖨𝖲𝖳 ߷",
                  "sections":
                    [{
-                    "title":"😎 𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
-                    "highlight_label":"🤩 𝛥𝐿𝐿𝛭𝛯𝛮𝑈",
+                    "title":"SUBZERO BOT MENULIST",
+                    "highlight_label":"Mr Frank Ofc",
                     "rows":[
                       {
                        "header":"",
-                       "title":"🔰 ᴀʟʟ ᴍᴇɴᴜ",
+                       "title":"ALLMENU",
                        "description":"🎨𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
-                        "title":"⬇️ ᴅᴏᴡɴʟᴀᴏᴅᴇʀ ᴍᴇɴᴜ",
+                        "title":"DOWNLOAD MENU",
                         "description":"📂𝐒𝚮𝚯𝐖 𝚫𝐋𝐋 𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃 𝐅𝚵𝚫𝚻𝐔𝚪𝚵𝐒🗂",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
-                        "title":"👨‍👨‍👧‍👧ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
+                        "title":"GROUP MENU",
                         "description":"🥵𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝚫𝛁𝚰𝐋𝚫𝚩𝐋𝚵 𝐅𝚯𝚪 𝐆𝚪𝚯𝐔𝚸🥵",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
-                        "title":"👨‍🔧 ᴛᴏᴏʟ ᴍᴇɴᴜ",
+                        "title":"TOOL MENU",
                         "description":"🛠 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚻𝚯𝚯𝐋 𝚳𝚵𝚴𝐔",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
-                        "title":"🗿 ᴍᴀɪɴ ᴍᴇɴᴜ",
+                        "title":"BOT MENU",
                         "description":"📪 𝚩𝚯𝚻 𝚳𝚫𝚰𝚴 𝐂𝚯𝚳𝚳𝚫𝚴𝐃𝐒🗳",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
-                        "title":"👨‍💻 ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
+                        "title":"OWNER MENU",
                         "description":"😎𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝐅𝚯𝚪 𝚳𝐘 𝚮𝚫𝚴𝐃𝐒𝚯𝚳𝚵 𝚯𝐖𝚴𝚵𝚪👨‍💼",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
-                        "title":"✨ ᴀɪ ᴍᴇɴᴜ",
+                        "title":"AI MENU",
                         "description":"💫 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚫𝚰 𝚳𝚵𝚴𝐔 🎇",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
-                        "title":"🔍sᴇᴀʀᴄʜ ᴍᴇɴᴜ🔎",
+                        "title":"SEARCH MENU",
                         "description":"♂️ 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚵𝚫𝚪𝐂𝚮 𝚳𝚵𝚴𝐔",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
-                        "title":"🧚‍♂️ sᴛᴀʟᴋ ᴍᴇɴᴜ",
+                        "title":"STALK MENU",
                         "description":"👨‍💼 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚻𝚫𝐋𝐊 𝚳𝚵𝚴𝐔🪆",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
-                        "title":"🥏 𝚌𝚘𝚗𝚟𝚎𝚛𝚝𝚎𝚛 𝚖𝚎𝚗𝚞",
+                        "title":"CONVERTER MENU",
                         "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
                         "id":"Converter Menu"
                       }
@@ -205,7 +207,7 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '120363249960769123@newsletter',
-                  newsletterName: "Ethix-MD",
+                  newsletterName: "SUBZERO MD",
                   serverMessageId: 143
                 }
               }
