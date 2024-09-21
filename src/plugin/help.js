@@ -91,15 +91,15 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
               text: `
 
      𝙷𝙴𝙻𝙻𝙾 ${m.pushName}
-╭━━━━━━━━━━━━━━━━━━▢              
+╭━━━━━━━━━━━━━━━━━▢              
 ┃ ╸𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾-𝚅3*
 ┃ ╸𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0.0
 ┃ ╸𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
 ┃ ╸𝙾𝚆𝙽𝙴𝚁: 263719647303
 ┃ ╸𝙷𝙾𝚂𝚃: *${os.platform()}*
 ┃ ╸𝙼𝙾𝙳𝙴 : *${mode}*
-┃  𝙿𝚁𝙵𝙸𝚇: ${pref}
-╰━━━━━━━━━━━━━━━━━━━▢ `
+┃ ╸𝙿𝚁𝙵𝙸𝚇: ${pref}
+╰━━━━━━━━━━━━━━━━━━▢ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: "© 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗙𝗥𝗔𝗡𝗞"
@@ -138,61 +138,61 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
                       {
                        "header":"",
                        "title":"ALLMENU",
-                       "description":"🎨𝛯𝑇𝛨𝛪𝛸-𝛭𝐷 𝛥𝐿𝐿𝛭𝛯𝛮𝑈🎨",
+                       "description":"All Menu",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"DOWNLOAD MENU",
-                        "description":"📂𝐒𝚮𝚯𝐖 𝚫𝐋𝐋 𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃 𝐅𝚵𝚫𝚻𝐔𝚪𝚵𝐒🗂",
+                        "description":"Show all download menu",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"GROUP MENU",
-                        "description":"🥵𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝚫𝛁𝚰𝐋𝚫𝚩𝐋𝚵 𝐅𝚯𝚪 𝐆𝚪𝚯𝐔𝚸🥵",
+                        "description":"Group chat menu",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"TOOL MENU",
-                        "description":"🛠 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚻𝚯𝚯𝐋 𝚳𝚵𝚴𝐔",
+                        "description":"Tool menu",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"BOT MENU",
-                        "description":"📪 𝚩𝚯𝚻 𝚳𝚫𝚰𝚴 𝐂𝚯𝚳𝚳𝚫𝚴𝐃𝐒🗳",
+                        "description":"Bot main menu",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"OWNER MENU",
-                        "description":"😎𝐅𝚵𝚫𝚻𝐔𝚪𝚵 𝚻𝚮𝚫𝚻 𝚫𝚪𝚵 𝚯𝚴𝐋𝐘 𝐅𝚯𝚪 𝚳𝐘 𝚮𝚫𝚴𝐃𝐒𝚯𝚳𝚵 𝚯𝐖𝚴𝚵𝚪👨‍💼",
+                        "description":"Feature for Mr Frank",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"AI MENU",
-                        "description":"💫 𝐒𝚮𝚯𝐖 𝚳𝚵 𝚫𝚰 𝚳𝚵𝚴𝐔 🎇",
+                        "description":"Meta Ai",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"SEARCH MENU",
-                        "description":"♂️ 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚵𝚫𝚪𝐂𝚮 𝚳𝚵𝚴𝐔",
+                        "description":"Search menu list",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"STALK MENU",
-                        "description":"👨‍💼 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐒𝚻𝚫𝐋𝐊 𝚳𝚵𝚴𝐔🪆",
+                        "description":"Stalk menu list",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
                         "title":"CONVERTER MENU",
-                        "description":"🛷 𝐒𝚮𝚯𝐖 𝚳𝚵 𝐂𝚯𝚴𝛁𝚵𝚪𝚻𝚵𝚪 𝚳𝚵𝚴𝐔",
+                        "description":"Converter menu list",
                         "id":"Converter Menu"
                       }
                     ]}
