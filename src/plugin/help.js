@@ -90,19 +90,19 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
             body: proto.Message.InteractiveMessage.Body.create({
               text: `
 
-              HI  ${m.pushName}
-━━━━━━━━━━━━━━━━━━━              
-╸ 𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾-𝚅3*
-╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0.0
-╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
-╸ 𝙾𝚆𝙽𝙴𝚁: 263719647303
-╸ 𝙷𝙾𝚂𝚃: *${os.platform()}*
-╸ 𝙼𝙾𝙳𝙴 : *${mode}*
-╸  𝙿𝚁𝙵𝙸𝚇: ${pref}
-━━━━━━━━━━━━━━━━━━━ `
+     𝙷𝙴𝙻𝙻𝙾 ${m.pushName}
+╭━━━━━━━━━━━━━━━━━━▢              
+┃ ╸𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾-𝚅3*
+┃ ╸𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0.0
+┃ ╸𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
+┃ ╸𝙾𝚆𝙽𝙴𝚁: 263719647303
+┃ ╸𝙷𝙾𝚂𝚃: *${os.platform()}*
+┃ ╸𝙼𝙾𝙳𝙴 : *${mode}*
+┃  𝙿𝚁𝙵𝙸𝚇: ${pref}
+╰━━━━━━━━━━━━━━━━━━━▢ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© 𝖒𝖆𝖉𝖊 𝖇𝖞 𝖒𝖗 𝖋𝖗𝖆𝖓𝖐 𝖝 𝖉𝖆𝖗𝖗𝖊𝖑𝖑"
+              text: "© 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗙𝗥𝗔𝗡𝗞"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/big-hero-6_612x380_1-58f6313c9ddd41bb92184318e725c69c.jpg')}, { upload: Matrix.waUploadToServer})), 
