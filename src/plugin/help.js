@@ -89,15 +89,26 @@ const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `
-━━━━━━━━━━━━━━━━━━━              
-╸ 𝙱𝙾𝚃𝙽𝙰𝙼𝙴: *𝚂𝚄𝙱𝚉𝙴𝚁𝙾-𝚅3*
-╸ 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: 1.0.0
-╸ 𝙾𝚆𝙽𝙴𝚁𝙽𝙰𝙼𝙴 : *𝙼𝚁 𝙵𝚁𝙰𝙽𝙺*      
-╸ 𝙾𝚆𝙽𝙴𝚁: 263719647303
-╸ 𝙷𝙾𝚂𝚃: *${os.platform()}*
-╸ 𝙼𝙾𝙳𝙴 : *${mode}*
-╸  𝙿𝚁𝙵𝙸𝚇: ${pref}
-━━━━━━━━━━━━━━━━━━━ `
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+> *SUBZERO - BOT - V1*
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+
+╭╴╴╴╴『 *USER DETAILS*』
+┆▢ 𝙽𝚄𝙼𝙱𝙴𝚁 : 263719647303
+┆▢ 𝙽𝙰𝙼𝙴 :  ${m.pushName} 
+╰╶╶┬╶╶◌
+╭╴╴┴╴╴『 *BOT DETAILS*』
+┆▢ 𝙽𝙰𝙼𝙴 : 𝚂𝚄𝙱𝚉𝙴𝚁𝙾 - 𝙼𝙳
+┆▢ 𝙽𝚄𝙼𝙱𝙴𝚁 : 263788236690
+┆▢ 𝙷𝙾𝚂𝚃 𝙾𝙽 : ${os.platform()}
+┆▢ 𝚆𝙴𝙱𝚂𝙸𝚃𝙴 : Chrome
+╰╶┬╴╴╴╴╴◌
+╭╶┴╶╶『 *ABOUT SYSTEM*』
+┆▢ 𝙿𝚁𝙴𝙵𝙸𝚇 : ${pref}
+┆▢ 𝚃𝙸𝙼𝙴 : {$hours}hrs,{$minutes}
+┆▢ 𝙼𝙾𝙳𝙴 : ${config.MODE}
+┆▢ 𝚁𝙰𝙼 𝚄𝚂𝙰𝙶𝙴 : 12.02/128GB
+╰╴╴╴╴╴╴╴╴╴╴◌ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
               text: "© 𝖒𝖆𝖉𝖊 𝖇𝖞 𝖒𝖗 𝖋𝖗𝖆𝖓𝖐 𝖝 𝖉𝖆𝖗𝖗𝖊𝖑𝖑"
